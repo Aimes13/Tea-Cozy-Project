@@ -1,0 +1,136 @@
+/* Body Section */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Header Section */
+.container1 {
+    display: flex;
+    height: 69px;
+    padding: 0 10px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+a {
+    color: seashell;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+ul {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Banner Section */
+.container2 {
+    display: flex;
+    margin: 0 auto 100px;
+    width: 1200px;
+    justify-content: center;
+}
+
+.banner {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1s4m0hu*_ga*MTEyNTI1NTU0Ni4xNjU0NTA5OTk0*_ga_3LRZM6TM9L*MTY1NzAwNzg1My40Ni4xLjE2NTcwMDc4NjIuNTE.);
+    height: 700px;
+    width: 1200px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headers {
+    justify-content: center;
+    height: 120px;
+    background-color: black;
+}
+
+h2, h4 {
+    text-align: center;
+    line-height: 0.8;
+}
+
+/* Tea Section */
+.container3 img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.container3 {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Location Section */
+.container4 {
+    display: flex;
+    margin: 100px auto 0;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.locPic {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*nds6s5*_ga*MTEyNTI1NTU0Ni4xNjU0NTA5OTk0*_ga_3LRZM6TM9L*MTY1NzAxNjQ0MC40OC4xLjE2NTcwMTY0NDguNTI.);
+    height: 550px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    margin: 15px 20px;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    line-height: 0.9;
+    justify-content: center;
+}
+
+/* Footer Section */
+.container5 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;   
+}
+
+.copy {
+    margin-left: 20px;
+    text-align: left;
+}
