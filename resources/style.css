@@ -52,6 +52,7 @@ ul {
     margin: 0 auto 100px;
     width: 1200px;
     justify-content: center;
+    flex-shrink: 4;
 }
 
 .banner {
@@ -61,12 +62,14 @@ ul {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    flex-shrink: 4;
 }
 
 .headers {
     justify-content: center;
     height: 120px;
     background-color: black;
+    flex-shrink: 1;
 }
 
 h2, h4 {
@@ -80,12 +83,14 @@ h2, h4 {
     width: 300px;
     padding: 10px;
 }
+
 .container3 {
     display: flex; 
     justify-content: space-around;
     flex-wrap: wrap;
     width: 1000px;
     margin: 0 auto;
+    flex-shrink: 1;
 }
 
 /* Location Section */
@@ -94,6 +99,7 @@ h2, h4 {
     margin: 100px auto 0;
     width: 1200px;
     justify-content: space-around;
+    flex-shrink: 2;
 }
 
 .locPic {
@@ -104,6 +110,7 @@ h2, h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 3;
 }
 
 .address {
@@ -117,6 +124,7 @@ h2, h4 {
     text-align: center;
     line-height: 0.9;
     justify-content: center;
+    flex-shrink: 1;
 }
 
 /* Footer Section */
@@ -127,7 +135,8 @@ h2, h4 {
     width: 1200px;
     margin: 0 auto;
     text-align: center;
-    justify-content: center;   
+    justify-content: center;
+    flex-shrink: 1;   
 }
 
 .copy {
